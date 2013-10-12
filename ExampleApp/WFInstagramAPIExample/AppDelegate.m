@@ -13,7 +13,7 @@
 #import "PopularMediaController.h"
 
 NSString * const kDefaultsUserToken = @"user_token";
-NSString * const kOAuthCallbackURL = @"egwfapi://auth";
+NSString * const kOAuthCallbackURL = @"instaround://";
 
 @implementation AppDelegate
 

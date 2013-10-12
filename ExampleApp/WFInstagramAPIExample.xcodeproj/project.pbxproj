@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F4425C918088FEE007F9AAE /* APIClient.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F4425C818088FEE007F9AAE /* APIClient.plist */; };
 		BE13844C14E4BF9300C6F915 /* MediaDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE13844B14E4BF9300C6F915 /* MediaDetailController.m */; };
 		BE13844F14E4C0C600C6F915 /* MediaImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE13844E14E4C0C600C6F915 /* MediaImageCell.m */; };
 		BE29466314E5C334007EF730 /* NewCommentController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29466114E5C334007EF730 /* NewCommentController.m */; };
@@ -22,7 +23,6 @@
 		BE45C68F14E774CC00F8DD20 /* BaseMediaListController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE45C68E14E774CC00F8DD20 /* BaseMediaListController.m */; };
 		BE45C69214E7775B00F8DD20 /* UserFeedController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE45C69114E7775B00F8DD20 /* UserFeedController.m */; };
 		BE45C69514E7777300F8DD20 /* PopularMediaController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE45C69414E7777300F8DD20 /* PopularMediaController.m */; };
-		BEAD136D14DD8FDA00FED356 /* APIClient.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEAD136C14DD8FDA00FED356 /* APIClient.plist */; };
 		BEAD137114DDAAB800FED356 /* NSURL+WillFleming.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAD137014DDA6B200FED356 /* NSURL+WillFleming.m */; };
 		BEAD137414DF1AAB00FED356 /* MediaListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAD137314DF1AAB00FED356 /* MediaListCell.m */; };
 /* End PBXBuildFile section */
@@ -45,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F4425C818088FEE007F9AAE /* APIClient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIClient.plist; sourceTree = "<group>"; };
 		BE13844A14E4BF9300C6F915 /* MediaDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaDetailController.h; sourceTree = "<group>"; };
 		BE13844B14E4BF9300C6F915 /* MediaDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaDetailController.m; sourceTree = "<group>"; };
 		BE13844D14E4C0C600C6F915 /* MediaImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaImageCell.h; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		BE45C69114E7775B00F8DD20 /* UserFeedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserFeedController.m; sourceTree = "<group>"; };
 		BE45C69314E7777300F8DD20 /* PopularMediaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopularMediaController.h; sourceTree = "<group>"; };
 		BE45C69414E7777300F8DD20 /* PopularMediaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopularMediaController.m; sourceTree = "<group>"; };
-		BEAD136C14DD8FDA00FED356 /* APIClient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIClient.plist; sourceTree = "<group>"; };
 		BEAD136F14DDA6B200FED356 /* NSURL+WillFleming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+WillFleming.h"; sourceTree = "<group>"; };
 		BEAD137014DDA6B200FED356 /* NSURL+WillFleming.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+WillFleming.m"; sourceTree = "<group>"; };
 		BEAD137214DF1AAB00FED356 /* MediaListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaListCell.h; sourceTree = "<group>"; };
@@ -176,11 +176,11 @@
 		BE30E21014D4855700232F8F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0F4425C818088FEE007F9AAE /* APIClient.plist */,
 				BE30E21114D4855700232F8F /* WFInstagramAPIExample-Info.plist */,
 				BE30E21214D4855700232F8F /* InfoPlist.strings */,
 				BE30E21514D4855700232F8F /* main.m */,
 				BE30E21714D4855700232F8F /* WFInstagramAPIExample-Prefix.pch */,
-				BEAD136C14DD8FDA00FED356 /* APIClient.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -277,8 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE30E21414D4855700232F8F /* InfoPlist.strings in Resources */,
-				BEAD136D14DD8FDA00FED356 /* APIClient.plist in Resources */,
 				BE29466414E5C334007EF730 /* NewCommentController.xib in Resources */,
+				0F4425C918088FEE007F9AAE /* APIClient.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

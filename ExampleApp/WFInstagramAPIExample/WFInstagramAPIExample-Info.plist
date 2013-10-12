@@ -43,7 +43,7 @@
 			<string>WFInstagramAPIExampleURLScheme</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>egwfapi</string>
+				<string>instaround</string>
 			</array>
 		</dict>
 	</array>
