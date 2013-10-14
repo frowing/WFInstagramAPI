@@ -65,11 +65,11 @@
   record.stubbedReturnBlock = self.currentReturnBlock;
   IMP newIMP = nil;
   if (record.stubbedReturnBlock) {
-    newIMP = imp_implementationWithBlock((__bridge void*)record.stubbedReturnBlock);
+    newIMP = imp_implementationWithBlock((__bridge id)((__bridge void*)record.stubbedReturnBlock));
   } else {
-    newIMP = imp_implementationWithBlock((__bridge void*)^(id obj) {
+    newIMP = imp_implementationWithBlock((__bridge id)((__bridge void*)^(id obj) {
       return record.stubbedReturnValue;
-    });
+    }));
   }
   
   IMP originalIMP = method_setImplementation(currentMethod, newIMP);
