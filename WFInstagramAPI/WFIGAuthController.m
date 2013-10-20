@@ -56,6 +56,12 @@ Class initialViewClass = NULL;
 }
 */
 
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    [self gotoInstagramAuthURL:self];
+}
+
 - (void)viewDidUnload
 {
   [super viewDidUnload];
